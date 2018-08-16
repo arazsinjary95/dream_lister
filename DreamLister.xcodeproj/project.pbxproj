@@ -23,6 +23,7 @@
 		AEB41D822122057B0026B391 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB41D7A2122057B0026B391 /* Item+CoreDataProperties.swift */; };
 		AEB41D8821247E4E0026B391 /* jetta.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB41D8721247E4E0026B391 /* jetta.png */; };
 		AEB41D8C212480590026B391 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB41D8B212480590026B391 /* MaterialView.swift */; };
+		AEB41D8E2125E0830026B391 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB41D8D2125E0830026B391 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		AEB41D7A2122057B0026B391 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AEB41D8721247E4E0026B391 /* jetta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jetta.png; sourceTree = "<group>"; };
 		AEB41D8B212480590026B391 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		AEB41D8D2125E0830026B391 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				AEB41D8B212480590026B391 /* MaterialView.swift */,
+				AEB41D8D2125E0830026B391 /* ItemCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB41D8E2125E0830026B391 /* ItemCell.swift in Sources */,
 				AEB41D812122057B0026B391 /* Item+CoreDataClass.swift in Sources */,
 				AEB41D7B2122057B0026B391 /* ItemType+CoreDataClass.swift in Sources */,
 				AEB41D7C2122057B0026B391 /* ItemType+CoreDataProperties.swift in Sources */,
