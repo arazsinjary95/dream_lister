@@ -233,6 +233,12 @@ ECQxMiwwMDA
                             <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="detailsField" destination="WHe-nQ-fQp" id="hdW-69-YRT"/>
+                        <outlet property="priceField" destination="2mD-Hb-2sS" id="2WM-ok-AYc"/>
+                        <outlet property="storePicker" destination="CSW-sm-g5g" id="hHi-K1-G3o"/>
+                        <outlet property="titleField" destination="6uz-AC-2Hb" id="0Wb-Q7-Rc3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XcT-Ih-A9L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
