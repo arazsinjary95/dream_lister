@@ -24,6 +24,8 @@
 		AEB41D8821247E4E0026B391 /* jetta.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB41D8721247E4E0026B391 /* jetta.png */; };
 		AEB41D8C212480590026B391 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB41D8B212480590026B391 /* MaterialView.swift */; };
 		AEB41D8E2125E0830026B391 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB41D8D2125E0830026B391 /* ItemCell.swift */; };
+		AEB41D9021270D8C0026B391 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB41D8F21270D8C0026B391 /* ItemDetailsVC.swift */; };
+		AEB41D922127148C0026B391 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB41D912127148C0026B391 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		AEB41D8721247E4E0026B391 /* jetta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jetta.png; sourceTree = "<group>"; };
 		AEB41D8B212480590026B391 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		AEB41D8D2125E0830026B391 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		AEB41D8F21270D8C0026B391 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		AEB41D912127148C0026B391 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 			children = (
 				AEB41D8B212480590026B391 /* MaterialView.swift */,
 				AEB41D8D2125E0830026B391 /* ItemCell.swift */,
+				AEB41D912127148C0026B391 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				AEB41D602121F64B0026B391 /* MainVC.swift */,
+				AEB41D8F21270D8C0026B391 /* ItemDetailsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -212,11 +218,13 @@
 				AEB41D612121F64B0026B391 /* MainVC.swift in Sources */,
 				AEB41D7D2122057B0026B391 /* Image+CoreDataClass.swift in Sources */,
 				AEB41D802122057B0026B391 /* Store+CoreDataProperties.swift in Sources */,
+				AEB41D9021270D8C0026B391 /* ItemDetailsVC.swift in Sources */,
 				AEB41D5F2121F64B0026B391 /* AppDelegate.swift in Sources */,
 				AEB41D7F2122057B0026B391 /* Store+CoreDataClass.swift in Sources */,
 				AEB41D672121F64B0026B391 /* DreamLister.xcdatamodeld in Sources */,
 				AEB41D822122057B0026B391 /* Item+CoreDataProperties.swift in Sources */,
 				AEB41D7E2122057B0026B391 /* Image+CoreDataProperties.swift in Sources */,
+				AEB41D922127148C0026B391 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
