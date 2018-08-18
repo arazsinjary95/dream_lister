@@ -50,6 +50,25 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if let objs = controller.fetchedObjects , objs.count > 0 {
+            
+            let item = objs[indexPath.row]
+            performSegue(withIdentifier: "itemDetailsVC", sender: item)
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "itemDetailsVC" {
+            if let destination = segue.destination as? ItemDetailsVC {
+                if let item = sender as? Item {
+                    destination.itemToEdit = item
+                }
+            }
+        }
+    }
+    
     func configureCell(cell: ItemCell, indexPath: NSIndexPath) {
         //update cell
         let item = controller.object(at: indexPath as IndexPath)
@@ -63,6 +82,8 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         fetchRequest.sortDescriptors = [dataSort]
         
         let controller = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
+        
+        controller.delegate = self
         
         self.controller = controller
         
